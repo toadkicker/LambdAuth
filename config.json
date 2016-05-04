@@ -1,13 +1,15 @@
 {
-  "AWS_ACCOUNT_ID": "123412341234",
-  "REGION": "eu-west-1",
-  "BUCKET": "bucket",
+  "AWS_ACCOUNT_ID": "009825708026",
+  "CLI_PROFILE": "default",
+  "REGION": "us-east-1",
+  "BUCKET": "toadkickerauth",
   "MAX_AGE": "10",
-  "DDB_TABLE": "LambdAuthUsers",
-  "IDENTITY_POOL_NAME": "LambdAuth",
-  "DEVELOPER_PROVIDER_NAME": "login.mycompany.myapp",
-  "EXTERNAL_NAME": "My Authentication",
-  "EMAIL_SOURCE": "email@example.com",
-  "VERIFICATION_PAGE": "http://bucket.s3.amazonaws.com/verify.html",
-  "RESET_PAGE": "http://bucket.s3.amazonaws.com/reset.html"
+  "DDB_TABLE": "toadkicker_users",
+  "IDENTITY_POOL_NAME": "toadkicker_users",
+  "DEVELOPER_PROVIDER_NAME": "toadkicker",
+  "EXTERNAL_NAME": "toadkicker.com",
+  "EMAIL_SOURCE": "todd@toadkicker.com",
+  "VERIFICATION_PAGE": "http://toadkickerauth.s3-website-us-east-1.amazonaws.com/verify.html",
+  "RESET_PAGE": "http://toadkickerauth.s3-website-us-east-1.amazonaws.com/reset.html",
+  "IDENTITY_POOL_ID": "us-east-1:31377e45-fc74-4ab3-b88d-5029e905b501"
 }
